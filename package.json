@@ -1,0 +1,15 @@
+{
+  "name": "automacao",
+  "version": "1.0.0",
+  "description": "//apresentação da ferramentas\r //Ferramenta básica criada para facilitar o dia-a-dia com o xpath\r //Observando que a maior dificuldade e a maior demora eram os fatores de mapeamento, fiz essa ferramenta, \r //como facilitardor de mapeamentos",
+  "main": "content copy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.46.1"
+  }
+}

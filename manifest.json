@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "XPath Finder",
+  "version": "1.0",
+  "description": "Uma extensão simples para capturar o XPath de elementos ao clicar.",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
